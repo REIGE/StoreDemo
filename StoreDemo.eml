@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/StoreDemo"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/web/WEB-INF/lib"/>
+	</contentEntry>
+	<lib name="c3p0-0.9.1.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar!/"/>
+	</lib>
+	<lib name="commons-beanutils-1.8.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar!/"/>
+	</lib>
+	<lib name="commons-collections-3.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.1.jar!/"/>
+	</lib>
+	<lib name="commons-dbutils-1.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar!/"/>
+	</lib>
+	<lib name="commons-fileupload-1.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.1.jar!/"/>
+	</lib>
+	<lib name="commons-io-1.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-io-1.4.jar!/"/>
+	</lib>
+	<lib name="commons-lang-2.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.6.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar!/"/>
+	</lib>
+	<lib name="ezmorph-1.0.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.6.jar!/"/>
+	</lib>
+	<lib name="json-lib-2.4-jdk15.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.4-jdk15.jar!/"/>
+	</lib>
+	<lib name="jstl.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar!/"/>
+	</lib>
+	<lib name="mail.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/mail.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.0.8-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar!/"/>
+	</lib>
+	<lib name="standard.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/standard.jar!/"/>
+	</lib>
+</component>
