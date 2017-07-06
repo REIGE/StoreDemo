@@ -19,7 +19,7 @@ public class DataSourceUtils {
     }
 
     //获取绑定到ThreadLocal 中的 Connection
-    public static Connection getConectionByTransaction() throws SQLException {
+    public static Connection getConnectionByTransaction() throws SQLException {
         Connection connection = tl.get();
         if (connection == null) {
             connection = dataSource.getConnection();
