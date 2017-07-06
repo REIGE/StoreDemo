@@ -47,4 +47,8 @@
 	<lib name="standard.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/standard.jar!/"/>
 	</lib>
+	<levels>
+		<level name="Java EE 6-Java EE 6" value="project"/>
+		<level name="javaee" value="project"/>
+	</levels>
 </component>
