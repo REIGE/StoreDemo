@@ -16,7 +16,7 @@ public class UserService {
             dao.addUser(user);
             // TODO: 2017/7/6 发送激活邮件
 
-            String emailMsg = "注册成功，请<a href='http://www.estore.com/activeUser?activeCode="
+            String emailMsg = "注册成功，请<a href='http://locahost:8080/activeUser?activeCode="
                     + user.getActivecode()
                     + "'>激活</a>,激活码为:"
                     + user.getActivecode();

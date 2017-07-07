@@ -33,6 +33,24 @@
         <servlet-name>RegistServlet</servlet-name>
         <url-pattern>/regist</url-pattern>
     </servlet-mapping>
+    <!--验证码-->
+    <servlet>
+        <servlet-name>CheckImgServlet</servlet-name>
+        <servlet-class>com.reige.storedemo.utils.CheckImgServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckImgServlet</servlet-name>
+        <url-pattern>/checkImg</url-pattern>
+    </servlet-mapping>
+    <!--用户激活-->
+    <servlet>
+        <servlet-name>ActiveUserServlet</servlet-name>
+        <servlet-class>com.reige.storedemo.web.servlet.ActiveUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ActiveUserServlet</servlet-name>
+        <url-pattern>/activeUser</url-pattern>
+    </servlet-mapping>
     <!-- 登陆 -->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
@@ -43,6 +61,10 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
 
+    
+    
+    
+    <!--首页-->
     <welcome-file-list>
         <welcome-file>/home.jsp</welcome-file>
     </welcome-file-list>
